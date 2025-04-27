@@ -1,0 +1,14 @@
+E:\D424\CAP\bin\Release\net8.0\CAP.deps.json
+E:\D424\CAP\bin\Release\net8.0\CAP.dll
+E:\D424\CAP\bin\Release\net8.0\CAP.pdb
+E:\D424\CAP\obj\Release\net8.0\CAP.csproj.AssemblyReference.cache
+E:\D424\CAP\obj\Release\net8.0\CAP.GeneratedMSBuildEditorConfig.editorconfig
+E:\D424\CAP\obj\Release\net8.0\CAP.AssemblyInfoInputs.cache
+E:\D424\CAP\obj\Release\net8.0\CAP.AssemblyInfo.cs
+E:\D424\CAP\obj\Release\net8.0\CAP.csproj.CoreCompileInputs.cache
+E:\D424\CAP\obj\Release\net8.0\CAP.sourcelink.json
+E:\D424\CAP\obj\Release\net8.0\XamlC.stamp
+E:\D424\CAP\obj\Release\net8.0\CAP.dll
+E:\D424\CAP\obj\Release\net8.0\refint\CAP.dll
+E:\D424\CAP\obj\Release\net8.0\CAP.pdb
+E:\D424\CAP\obj\Release\net8.0\ref\CAP.dll

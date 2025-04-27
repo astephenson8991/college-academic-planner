@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CAP.Views.Courses"
+             Title="Courses">
+
+    <StackLayout>
+        <ListView x:Name="CoursesListView" HasUnevenRows="True" ItemTapped="CoursesListView_ItemTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="3,8">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width=".5*"/>
+                                <ColumnDefinition Width=".32*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Label Text="{Binding CourseName}" 
+                                    FontSize="18" 
+                                    FontAttributes="Bold"
+                                    Padding="5"
+                                    Grid.Column="0" 
+                                    BackgroundColor="#404048"
+                                    TextColor="#D0D0CD"/>
+                            <VerticalStackLayout 
+                                    BackgroundColor="#404048" 
+                                    Padding="5" Grid.Column="1" 
+                                    Grid.Row="0" 
+                                    HorizontalOptions="Fill">
+                                <Label 
+                                    Text="{Binding Start, StringFormat='{0:MMMM dd, yyyy}'}"
+                                    TextColor="#D0D0CD"/>
+                                <Label 
+                                    Text="{Binding End, StringFormat='{0:MMMM dd, yyyy}'}"
+                                    TextColor="#D0D0CD"/>
+                            </VerticalStackLayout>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button 
+            x:Name="addButton" 
+            Text="Add" 
+            Clicked="AddButton_Clicked" 
+            Margin="20" 
+            BackgroundColor="#42892E"></Button>
+    </StackLayout>
+</ContentPage>

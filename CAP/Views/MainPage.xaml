@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CAP.MainPage"             
+             Title="Home">
+
+    <VerticalStackLayout>
+        <Image 
+            Source="hat.png" 
+            Scale="0.25"
+            Margin="-180"/>
+        <Label 
+            Text="College Academic Planner" 
+            FontSize="40" 
+            FontAttributes="Bold,Italic"
+            TextColor="#734B5E"
+            HorizontalTextAlignment="Center"
+            Padding="0, 0, 0, 30"></Label>
+        <Button 
+            x:Name="termsButton" 
+            Clicked="TermsButton_Clicked"
+            FontAttributes="Bold"
+            Text="Terms" 
+            Margin="5"
+            BackgroundColor="#565857"/>
+        <Button 
+            x:Name="coursesButton" 
+            Clicked="CoursesButton_Clicked"
+            FontAttributes="Bold"
+            Text="Courses" 
+            Margin="5"
+            BackgroundColor="#565857"/>
+        <Button 
+            x:Name="assessmentsButton" 
+            Clicked="AssessmentsButton_Clicked"
+            FontAttributes="Bold"
+            Text="Assessments" 
+            Margin="5"
+            BackgroundColor="#565857"/>
+        <Button 
+            x:Name="SearchButton"
+            Clicked="SearchButton_Clicked"
+            FontAttributes="Bold"
+            Text="Search" 
+            Margin="5,5,5,90"
+            BackgroundColor="#565857"/>
+    </VerticalStackLayout>
+
+</ContentPage>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CAP.Views.EditTerm"
+             Title="Edit Term">
+    <VerticalStackLayout>
+        <Entry 
+            x:Name="nameEntryField" 
+            Placeholder="Term Name" 
+            HorizontalOptions="Center"
+            MinimumWidthRequest="200"
+            HorizontalTextAlignment="Center"
+            Margin="0,0,0,10"/>
+
+        <Grid 
+            Padding="3,8" 
+            RowSpacing="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width=".5*"/>
+                <ColumnDefinition Width=".5*"/>
+            </Grid.ColumnDefinitions>
+            <Label
+                Text="Start Date"
+                HorizontalOptions="Center"
+                Grid.Row="0"
+                Grid.Column="0"/>
+            <Label 
+                Text="End Date"
+                HorizontalTextAlignment="Center"
+                Grid.Row="0"
+                Grid.Column="1"/>
+            <DatePicker
+                x:Name="StartPicker"
+                HorizontalOptions="Center"
+                Grid.Row="1"
+                Grid.Column="0"/>
+            <DatePicker 
+                x:Name="EndPicker"
+                HorizontalOptions="Center"
+                Grid.Row="1"
+                Grid.Column="1" TextColor="#000000"/>
+        </Grid>
+
+        <Grid 
+            Padding="40,8"
+            ColumnSpacing="-35">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width=".8*"/>
+                <ColumnDefinition Width=".1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Picker
+                x:Name="Course1"
+                Title="Course 1"
+                ItemDisplayBinding="{Binding CourseName}"
+                Grid.Row="0"
+                HorizontalTextAlignment="Center"
+                HorizontalOptions="Center"
+                MinimumWidthRequest="200"
+                Margin="0,0,0,10"/>
+            <Button
+                x:Name="Btn1"
+                Clicked="Btn1_Clicked"
+                Text="X"
+                Grid.Column="1"
+                Grid.Row="0"
+                HeightRequest="40"
+                WidthRequest="50"
+                Background="Red"
+                Scale=".5"
+                FontSize="Medium"/>
+            <Picker            
+                x:Name="Course2"            
+                Title="Course 2"
+                ItemDisplayBinding="{Binding CourseName}"
+                Grid.Row="1"
+                HorizontalTextAlignment="Center"
+                HorizontalOptions="Center"
+                MinimumWidthRequest="200"
+                Margin="0,0,0,10"/>
+            <Button
+                x:Name="Btn2"
+                Clicked="Btn2_Clicked"
+                Text="X"
+                Grid.Column="1"
+                Grid.Row="1"
+                HeightRequest="40"
+                WidthRequest="50"
+                Background="Red"
+                Scale=".5"
+                FontSize="Medium"/>
+            <Picker
+                x:Name="Course3"
+                Title="Course 3"
+                ItemDisplayBinding="{Binding CourseName}"
+                Grid.Row="2"
+                HorizontalTextAlignment="Center"
+                HorizontalOptions="Center"
+                MinimumWidthRequest="200"
+                Margin="0,0,0,10"/>
+            <Button
+                x:Name="Btn3"
+                Clicked="Btn3_Clicked"
+                Text="X"
+                Grid.Column="1"
+                Grid.Row="2"
+                HeightRequest="40"
+                WidthRequest="50"
+                Background="Red"
+                Scale=".5"
+                FontSize="Medium"/>
+            <Picker
+                x:Name="Course4"
+                Title="Course 4"
+                ItemDisplayBinding="{Binding CourseName}"
+                Grid.Row="3"
+                HorizontalTextAlignment="Center"
+                HorizontalOptions="Center"
+                MinimumWidthRequest="200"
+                Margin="0,0,0,10"/>
+            <Button
+                x:Name="Btn4"
+                Clicked="Btn4_Clicked"
+                Text="X"
+                Grid.Column="1"
+                Grid.Row="3"
+                HeightRequest="40"
+                WidthRequest="50"
+                Background="Red"
+                Scale=".5"
+                FontSize="Medium"/>
+            <Picker
+                x:Name="Course5"
+                Title="Course 5"
+                ItemDisplayBinding="{Binding CourseName}"
+                Grid.Row="4"
+                HorizontalTextAlignment="Center"
+                HorizontalOptions="Center"
+                MinimumWidthRequest="200"
+                Margin="0,0,0,10"/>
+            <Button
+                x:Name="Btn5"
+                Clicked="Btn5_Clicked"
+                Text="X"
+                Grid.Column="1"
+                Grid.Row="4"
+                HeightRequest="40"
+                WidthRequest="50"
+                Background="Red"
+                Scale=".5"
+                FontSize="Medium"/>
+            <Picker
+                x:Name="Course6"
+                Title="Course 6"
+                ItemDisplayBinding="{Binding CourseName}"
+                Grid.Row="5"
+                HorizontalTextAlignment="Center"
+                HorizontalOptions="Center"
+                MinimumWidthRequest="200"
+                Margin="0,0,0,10"/>
+            <Button
+                x:Name="Btn6"
+                Clicked="Btn6_Clicked"
+                Text="X"
+                Grid.Column="1"
+                Grid.Row="5"
+                HeightRequest="40"
+                WidthRequest="50"
+                Background="Red"
+                Scale=".5"
+                FontSize="Medium"/>
+        </Grid>
+        <Button 
+            x:Name="saveButton" 
+            Text="Save" 
+            Clicked="SaveButton_Clicked" 
+            Margin="20" 
+            BackgroundColor="#42892E"/>
+    </VerticalStackLayout>
+
+</ContentPage>

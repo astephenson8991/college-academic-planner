@@ -1,0 +1,127 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CAP
+build_property.ProjectDir = E:\D424\CAP\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[E:/D424/CAP/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CAP.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[E:/D424/CAP/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CAP.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[E:/D424/CAP/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CAP.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[E:/D424/CAP/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CAP.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[E:/D424/CAP/Views/AddAssessment.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CAP.Views.AddAssessment.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddAssessment.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddAssessment.xaml
+
+[E:/D424/CAP/Views/AddCourse.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CAP.Views.AddCourse.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddCourse.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddCourse.xaml
+
+[E:/D424/CAP/Views/AddTerm.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CAP.Views.AddTerm.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddTerm.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddTerm.xaml
+
+[E:/D424/CAP/Views/Assessments.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CAP.Views.Assessments.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Assessments.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Assessments.xaml
+
+[E:/D424/CAP/Views/Courses.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CAP.Views.Courses.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Courses.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Courses.xaml
+
+[E:/D424/CAP/Views/EditAssessment.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CAP.Views.EditAssessment.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EditAssessment.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EditAssessment.xaml
+
+[E:/D424/CAP/Views/EditCourse.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CAP.Views.EditCourse.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EditCourse.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EditCourse.xaml
+
+[E:/D424/CAP/Views/EditTerm.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CAP.Views.EditTerm.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EditTerm.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EditTerm.xaml
+
+[E:/D424/CAP/Views/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CAP.Views.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MainPage.xaml
+
+[E:/D424/CAP/Views/Reports.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CAP.Views.Reports.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Reports.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Reports.xaml
+
+[E:/D424/CAP/Views/SearchResult.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CAP.Views.SearchResult.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SearchResult.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SearchResult.xaml
+
+[E:/D424/CAP/Views/Terms.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CAP.Views.Terms.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Terms.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Terms.xaml
+
+[E:/D424/CAP/Views/ViewAssessment.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CAP.Views.ViewAssessment.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ViewAssessment.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ViewAssessment.xaml
+
+[E:/D424/CAP/Views/ViewCourse.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CAP.Views.ViewCourse.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ViewCourse.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ViewCourse.xaml
+
+[E:/D424/CAP/Views/ViewTerm.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CAP.Views.ViewTerm.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ViewTerm.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ViewTerm.xaml

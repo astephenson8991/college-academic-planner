@@ -1,0 +1,4 @@
+E:\D424\CAP\bin\Release\net8.0-android\publish\com.companyname.cap-Signed.aab
+E:\D424\CAP\bin\Release\net8.0-android\publish\com.companyname.cap.aab
+E:\D424\CAP\bin\Release\net8.0-android\publish\com.companyname.cap-Signed.apk
+E:\D424\CAP\bin\Release\net8.0-android\publish\_Microsoft.Android.Resource.Designer.dll
