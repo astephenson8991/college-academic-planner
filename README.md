@@ -1,30 +1,17 @@
-<strong>**DO NOT DISTRIBUTE OR PUBLICLY POST SOLUTIONS TO THESE LABS. MAKE ALL FORKS OF THIS REPOSITORY WITH SOLUTION CODE PRIVATE. PLEASE REFER TO THE STUDENT CODE OF CONDUCT AND ETHICAL EXPECTATIONS FOR COLLEGE OF INFORMATION TECHNOLOGY STUDENTS FOR SPECIFICS. **</strong>
+# College Academic Planner - My Bachelor's Capstone Project (.NET MAUI)
 
-# WESTERN GOVERNOR UNIVERSITY 
-## D424 – SOFTWARE ENGINEERING CAPSTONE
-Welcome to Software Engineering Capstone! This is an opportunity for students to develop full stack software engineering documentation and applications. They will execute documentation, unit testing, revision of software applications, and deploy software applications with scripts and containers on a cloud platform.
+## Description
 
-FOR SPECIFIC TASK INSTRUCTIONS AND REQUIREMENTS FOR THIS ASSESSMENT, PLEASE REFER TO THE COURSE PAGE.
-BASIC INSTRUCTIONS
-For this assessment, you will deploy your developed full stack software product to a web service of your choice.
+This repository contains the source code for the College Academic Planner, a significant project that served as my capstone for my Bachelor's degree. Developed using the **.NET Multi-platform App UI (.NET MAUI)** framework, this application represents the culmination of my undergraduate studies, allowing me to integrate and apply the theoretical knowledge and practical skills I gained in software engineering, cross-platform development, and project management. The College Academic Planner is designed to be a practical tool for college students, aiming to simplify the organization of their academic lives by providing features for managing courses, tracking assignments and exams, recording grades, and visualizing their schedules across different devices.
 
+## Features
 
-## SUPPLEMENTAL RESOURCES  
-1.	How to clone a project to IntelliJ using Git?
+The College Academic Planner is built with the needs of college students in mind and leverages the capabilities of .NET MAUI to offer a cross-platform solution. Its key features include:
 
-> Ensure that you have Git installed on your system and that IntelliJ is installed using [Toolbox](https://www.jetbrains.com/toolbox-app/). Make sure that you are using version 2022.3.2. Once this has been confirmed, click the clone button and use the 'IntelliJ IDEA (HTTPS)' button. This will open IntelliJ with a prompt to clone the proejct. Save it in a safe location for the directory and press clone. IntelliJ will prompt you for your credentials. Enter in your WGU Credentials and the project will be cloned onto your local machine.  
-
-2. How to create a branch and start Development?
-
-- GitLab method
-> Press the '+' button located near your branch name. In the dropdown list, press the 'New branch' button. This will allow you to create a name for your branch. Once the branch has been named, you can select 'Create Branch' to push the branch to your repository.
-
-- IntelliJ method
-> In IntelliJ, Go to the 'Git' button on the top toolbar. Select the new branch option and create a name for the branch. Make sure checkout branch is selected and press create. You can now add a commit message and push the new branch to the local repo.
-
-## SUPPORT
-If you need additional support, please navigate to the course page and reach out to your course instructor.
-
-## FUTURE USE
-Take this opportunity to create or add to a simple resume portfolio to highlight and showcase your work for future use in career search, experience, and education!
-# college-academic-planner
+* **Comprehensive Course Management:** Users can add, modify, and remove course details, including names, codes, credit hours, instructor information, and scheduled meeting times.
+* **Assignment and Exam Tracking:** The application facilitates the recording of all academic tasks, allowing users to set due dates, add descriptions, and update their completion status.
+* **Grade Input and Analysis:** A core feature is the ability to input grades for various assignments and exams, with the potential for calculating course averages and overall academic performance (depending on the implemented calculation logic).
+* **Intuitive Schedule Visualization:** Provides a clear visual representation of the student's weekly or daily schedule, helping them keep track of classes, study sessions, and other commitments on their preferred device.
+* **Integrated Event Management:** Beyond coursework, the planner allows users to add and manage other important academic or personal events, offering a single point of reference for all time commitments.
+* **Attendance Tracking:** (If implemented) Functionality to monitor class attendance.
+* **Cross-Platform Compatibility:** (Leveraging MAUI) Designed to run on multiple operating systems (Windows, Android, iOS, macOS) from a single codebase.
